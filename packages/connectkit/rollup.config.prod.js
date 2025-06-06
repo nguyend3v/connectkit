@@ -9,7 +9,7 @@ export default [
     external: ['react', 'react-dom', 'framer-motion', 'wagmi'],
     output: {
       file: packageJson.exports.import,
-      format: 'esm',
+      format: 'cjs',
       sourcemap: true,
     },
     plugins: [
